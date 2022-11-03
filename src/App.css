@@ -1,0 +1,68 @@
+body {
+  background-color: rgb(192, 214, 187);
+}
+
+.form {
+  width: 80%;
+  margin: 80px auto 0;
+}
+
+h3{
+  font-size: 25px;
+}
+
+.input-tarea{
+  margin-right: 30px;
+  font-size: 30px;
+}
+
+.input-editar{
+  font-size: 20px;
+}
+
+.btn-guardar{
+  border: 1px solid;
+  border-color: black;
+  padding: 5px;
+  font-size: 15px;
+  color: black;
+}
+
+.btn-agregar{
+  border: 1px solid;
+  border-color: black;
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+.btn-editar, .btn-borrar{
+  border: 1px solid;
+  border-color: black;
+  padding: 10px;
+  font-size: 15px;
+  margin-left: 10px;
+  color: black;
+}
+
+.lista-tarea {
+  font-size: 20px;
+}
+
+.validacion {
+  width: 80%;
+  color: red;
+  margin: 0 auto;
+}
+
+.lista {
+  width: 80%;
+  margin: 50px auto 0;
+}
+
+.tarea {
+  font-size: 20px;
+  margin: 20px 0 15px 0;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+}
